@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const { REACT_APP_CLIENT_ID, REACT_APP_CLIENT_SECRET } = process.env;
+const REACT_APP_CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
+const REACT_APP_CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
 
 export const getParamValues = (url) => {
     return url

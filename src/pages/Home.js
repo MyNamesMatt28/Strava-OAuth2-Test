@@ -1,6 +1,6 @@
 import React from "react";
 
-const { REACT_APP_CLIENT_ID } = process.env;
+const REACT_APP_CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const redirectUrl = "http://localhost:3000/redirect"
 
 const handleLogin = () => {
